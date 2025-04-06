@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, professional font */
+    margin: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure footer stays at the bottom */
+    align-items: center; /* Center content horizontally */
+    padding-top: 40px; /* Add some top padding */
+    padding-bottom: 40px; /* Add some bottom padding */
+}
+
+.container {
+    max-width: 960px; /* Adjust as needed for your preferred width */
+    width: 90%; /* Take up 90% of the viewport width */
+    margin: 0 auto; /* Center the container */
+    background-color: #fff; /* White content background */
+    padding: 30px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 8px 8px 0 0;
+    width: 100%; /* Make header full width within the body's centered context */
+}
+
+.hero {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 500; /* Slightly lighter font weight */
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #ddd;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.button {
+    display: inline-block;
+    background-color: #5cb85c; /* Green button */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Main Content Styles */
+main {
+    width: 100%; /* Make main full width within the body's centered context */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center sections within main */
+}
+
+section {
+    padding: 30px 0;
+    width: 90%; /* Match container width */
+    max-width: 960px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+section p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+section strong {
+    font-weight: bold;
+}
+
+/* Projects Section Styles */
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    text-align: center; /* Center project content */
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    text-align: left; /* Align project description to the left for better readability */
+}
+
+.project-item .project-links {
+    margin-top: 15px;
+    text-align: center; /* Center the links */
+}
+
+.project-item .project-links a {
+    display: inline-block;
+    background-color: #007bff; /* Blue link button */
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.project-item .project-links a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.project-item .project-links span {
+    color: #ccc;
+    margin: 0 8px;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Make footer full width within the body's centered context */
+    margin-top: 40px; /* Add some space above the footer */
+    border-radius: 0 0 8px 8px;
+}
