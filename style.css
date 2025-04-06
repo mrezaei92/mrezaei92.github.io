@@ -107,9 +107,9 @@ section strong {
 
 /* Projects Section Styles */
 #projects .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Adjust the spacing between projects */
 }
 
 .project-item {
