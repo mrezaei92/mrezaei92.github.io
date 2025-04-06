@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Page</title>
-</head>
+    <title>Mohammad Rezaei - Personal Page</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <h1>Welcome to my personal page!</h1>
-    <p>This is a simple website created with GitHub Pages.</p>
-</body>
+    <header>
+        <div class="hero">
+            <h1>Mohammad Rezaei</h1>
+            <p class="tagline">Where Creativity Meets Technology</p>
+            <p>I'm a computer scientist with a keen interest in statistical modeling and deep learning, particularly their applications in NLP and computer vision.</p>
+            <a href="#projects" class="button">View My Projects</a>
+            </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a computer scientist with a deep-seated passion for understanding and leveraging the power of data. My primary interests lie in the fascinating realms of statistical modeling and deep learning, where I'm particularly drawn to their transformative applications in Natural Language Processing and Computer Vision. I'm motivated by the potential of these technologies to solve complex real-world problems and build intelligent systems that can understand and interact with the world around us.</p>
+            </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>TriHorn-Net</h3>
+                    <img src="images/trihornnet.png" alt="Screenshot of TriHorn-Net">
+                    <p><strong>TriHorn-Net:</strong> I proposed and implemented a novel two-stage network architecture for hand pose estimation from depth images. This network, called TriHorn-Net, utilizes a unique combination of three attention-based branches to accurately predict joint positions. My approach, which includes a constrained UV branch and an unconstrained attention enhancement branch fused to guide feature pooling, achieves state-of-the-art performance in the field.</p>
+                    <p><strong>Technologies Used:</strong> Python, Pytorch, Deep Learning</p>
+                    <div class="project-links">
+                        <a href="https://github.com/mrezaei92/TriHorn-Net" target="_blank">Github</a>
+                        <span style="margin-left: 10px; margin-right: 10px;">|</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423004232" target="_blank">Paper</a>
+                    </div>
+
+                </div>
+
+                <div class="project-item">
+                    <h3>Project Title 2</h3>
+                    <img src="images/project2-screenshot.png" alt="Screenshot of Project Title 2">
+                    <p>A brief description of your second project. What problem did it solve? What was your role?</p>
+                    <p><strong>Technologies Used:</strong> Python, Django, PostgreSQL</p>
+                    <div class="project-links">
+                        <a href="your-github-repo-url-2" target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out!</p>
+            <p><strong>Email:</strong> mohammad.rezaei92@gmail.com</p>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mohammad Rezaei</p>
+        </footer>
+
+    </body>
 </html>
